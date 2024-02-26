@@ -3,7 +3,7 @@
 ## Test Cases
 - Account Registration (by generating data randomly)
 - Login
-- Data-Driven (by reading data from Excel file)
+- Login Data-Driven (by reading data from Excel file)
 
 ## Language & Frameworks
 - Java
@@ -11,3 +11,6 @@
 - TestNG
 - POM Design Pattern
 - Log4j2
+
+## Details
+- Screenshots are taken for failed test cases
