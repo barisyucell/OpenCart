@@ -5,12 +5,12 @@
 - Login
 - Login Data-Driven (by reading data from Excel file)
 
-## Language & Frameworks
+## Tech Stack
 - Java
 - Selenium WebDriver
 - TestNG
-- POM Design Pattern
 - Log4j2
+- POM Design Pattern
 
 ## Details
 - Screenshots are taken for failed test cases
