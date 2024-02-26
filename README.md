@@ -1,9 +1,9 @@
 # OpenCart Test Automation Practice
 
 ## Test Cases
-- Account Registration (with randomly generated data)
+- Account Registration (by generating data randomly)
 - Login
-- Data-Driven (by generating data randomly)
+- Data-Driven (by reading data from Excel file)
 
 ### Language & Frameworks
 - Java
