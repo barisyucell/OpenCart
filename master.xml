@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OpenCartSuite">
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test name="OpenCartTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest"/>
+            <class name="testCases.TC_002_LoginTest"/>
+            <class name="testCases.TC_003_LoginDataDrivenTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+
+<!--
+
+** in "OpenCart_LoginData" Excel file in "testData" package;
+1) "pavanoltraining@gmail.com - test@123" account exists        and expected result("res") is Valid(true).    So the test result should be PASSED!
+2) "lakshmi@yahoo.com - Laxmi"            account exists        and expected result("res") is Invalid(false). So the test result should be FAILED!
+3) "laksh@yahoo.com - Lakshmi"            account exists        and expected result("res") is Invalid(false). So the test result should be FAILED!
+4) "laks@yahoo.com - xyz"                 account doesn't exist and expected result("res") is Invalid(false). So the test result should be PASSED!
+5) "abc123@gmail.com - test@123"          account exists        and expected result("res") is Valid(true).    So the test result should be PASSED!
+
+-->
