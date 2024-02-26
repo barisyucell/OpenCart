@@ -1,7 +1,7 @@
 # OpenCart Test Automation Practice
 
 ## Test Cases
-- Account Registration (by using randomly generated data)
+- Account Registration (with randomly generated data)
 - Login
 - Data-Driven (by reading data from Excel file)
 
