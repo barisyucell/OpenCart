@@ -3,7 +3,7 @@
 ## Test Cases
 - Account Registration (with randomly generated data)
 - Login
-- Data-Driven (by reading data from Excel file)
+- Data-Driven (by generating data randomly)
 
 ### Language & Frameworks
 - Java
