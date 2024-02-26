@@ -5,7 +5,7 @@
 - Login
 - Data-Driven (by reading data from Excel file)
 
-### Language & Frameworks
+## Language & Frameworks
 - Java
 - Selenium WebDriver
 - TestNG
